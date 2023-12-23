@@ -12,7 +12,7 @@ public class RaceTrack {
     public boolean tryFinishTrack(NeedForSpeed car) {
         boolean condition = car.getMetersDriven() >= this.getDistance();
         for (int i = car.getBattery(); i >= 0; i--) {
-            if (car.batteryDrained() || car.getMetersDriven() >= getDistance()) {
+            if (car.batteryDrained() || condition) {
                 return condition;
             }
             car.drive();
