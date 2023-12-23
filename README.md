@@ -26,8 +26,8 @@ int distance = 800;
 var raceTrack = new RaceTrack(distance);
 ```
 
-`3. Drive the car`
-   Implement the NeedForSpeed.drive() method that updates the number of meters driven based on the car's speed. Also implement the NeedForSpeed.distanceDriven() method to return the number of meters driven by the car:
+`3. Drive the car`</br>
+Implement the NeedForSpeed.drive() method that updates the number of meters driven based on the car's speed. Also implement the NeedForSpeed.distanceDriven() method to return the number of meters driven by the car:
 ```
 int speed = 5;
 int batteryDrain = 2;
