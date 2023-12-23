@@ -14,10 +14,6 @@ public class NeedForSpeed {
         this.batteryDrain = batteryDrain;
     }
 
-    public int getBattery() {
-        return battery;
-    }
-
     public boolean batteryDrained() {
         return battery == 0;
     }
